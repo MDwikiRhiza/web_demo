@@ -24,3 +24,8 @@ Route::get('/portfolio', function () {
 Route::get('/about', function () {
     return view('about');
 });   
+
+// routes/web.php
+Route::get('/contact', function () {
+    return view('contact');
+});
